@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - positive or negative function 
+ * main- positive or negative function. 
  *
- * Return: success
+ * Return: (success)
  */
 int main(void)
 {
