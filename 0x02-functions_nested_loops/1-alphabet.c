@@ -6,13 +6,13 @@
 */
 void print_alphabet(void)
 {
-int a=  97;
+int a =  97;
 int count = 1;
-while( count <= 26 )
+while (count <= 26)
 {
 _putchar(a);
 a++;
-count ++;
+count++;
 }
 _putchar('\n');
 }
