@@ -1,4 +1,4 @@
-include <stdio.h>
+#include "holberton.h"
 /**
 *
 * main - print _putchar
@@ -6,7 +6,7 @@ include <stdio.h>
 * Return: success always
 */
 
-int main()
+int main(void)
 {
 println("_putchar");
 return (0);
