@@ -15,7 +15,7 @@ for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 {
 _putchar(alphabets);
 }
- count--;
+count--;
 _putchar('\n');
 }
 }
