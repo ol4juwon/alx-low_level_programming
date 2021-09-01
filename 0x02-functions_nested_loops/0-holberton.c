@@ -2,7 +2,9 @@
 /**
 *
 * main - print _putchar 
-* Return: success always
+*
+*
+* Return: success always.
 */
 int main(void)
 {
