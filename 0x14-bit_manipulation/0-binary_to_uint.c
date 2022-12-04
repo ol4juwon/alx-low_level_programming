@@ -1,11 +1,12 @@
 #include "main.h"
 #include <string.h>
 
-/*
+/**
  * binary_to_uint - converter
  *
  * @binary:  string binary.
- * return: unsigned int.
+ * description: binary to uint
+ * Return: unsigned int.
  */
 
 unsigned int binary_to_uint(const char *binary)
