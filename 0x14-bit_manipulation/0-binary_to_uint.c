@@ -17,7 +17,7 @@ return (0);
 }
 
 length = strlen(binary);
-for (; index < length; index++)
+while(length--)
 {
 if (binary[length] != 48 && binary[length] != 49)
 {
