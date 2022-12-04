@@ -21,19 +21,19 @@ converter(n);
 
 /**
  * converter - function converter
- * @o: unsigned long int
+ * @n: unsigned long int
  * description: convert
  * Return: void.
  */
 
-void converter(unsigned long int o)
+void converter(unsigned long int n)
 {
-if (o < 1)
+if (n < 1)
 return;
 
-converter(o >> 1);
+converter(n >> 1);
 
-if (o & 1)
+if (n & 1)
 	putchar('1');
 else
 	putchar('0');
