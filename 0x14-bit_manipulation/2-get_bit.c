@@ -16,17 +16,12 @@ unsigned int count = 0;
 if (n == 0 && index < 64)
 return (0);
 
-while (n != 0)
+for (i = 0; i <= 63; n >>= 1, i++)
 {
-if (count == index)
+if (index == i)
 {
-if (n % 2)
-return (1);
-else
-return (0);
+return (n & 1);
 }
-n /= 2;
-count++;
 }
 return (-1);
 }
