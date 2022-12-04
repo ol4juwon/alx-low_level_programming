@@ -21,6 +21,8 @@ return (1);
 else
 return (0);
 }
+n /= 2;
+count++;
 }
 return (-1);
 }
