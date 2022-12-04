@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 #include <string.h>
 
 /*
  * binary_to_uint - converter
- * @binary:  string binary
- * return: uint
+ *
+ * @binary:  string binary.
+ * return: unsigned int.
  */
 
 unsigned int binary_to_uint(const char *binary)
@@ -17,7 +17,7 @@ return (0);
 }
 
 length = strlen(binary);
-while(length--)
+while (length--)
 {
 if (binary[length] != 48 && binary[length] != 49)
 {
