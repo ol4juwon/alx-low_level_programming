@@ -16,7 +16,7 @@ unsigned int count = 0;
 if (n == 0 && index < 64)
 return (0);
 
-for (i = 0; i <= 63; n >>= 1, i++)
+for (count = 0; count <= 63; n >>= 1, count++)
 {
 if (index == i)
 {
