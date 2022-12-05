@@ -25,7 +25,7 @@ if (array[mid] > value)
 return (search(array, mid, value));
 
 mid++;
-return (search(arrray, mid, value));
+return (search(array, mid, value));
 }
 
 /**
