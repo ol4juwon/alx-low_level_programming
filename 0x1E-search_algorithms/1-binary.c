@@ -21,11 +21,11 @@ mid--;
 
 if ( array[mid] == value)
 return mid;
-if (array[mid] > value)
+if (value < array[mid])
 return (search(array, mid, value));
 
 mid++;
-return (search(array, mid, value));
+return (search(array + mid,size - mid, value) + mid );
 }
 
 /**
