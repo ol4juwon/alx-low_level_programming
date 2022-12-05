@@ -7,7 +7,7 @@
  * @value: item to search
  * Return: -1 if not found or
  * index if found
- */
+ **/
 
 int linear_search(int *array, size_t size, int value)
 {
