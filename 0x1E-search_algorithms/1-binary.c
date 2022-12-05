@@ -44,5 +44,5 @@ index = search(array, size, value);
 
 if( index >= 0 && array[index] != value)
 	return (-1);
-return index;
+return (index);
 }
