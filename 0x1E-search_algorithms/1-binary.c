@@ -12,7 +12,7 @@ size_t mid = size/2;
 size_t x;
 if (!array || size == 0)
 return (-1);
-printf("searching in array: ");
+printf("Searching in array: ");
 for (x = 0; x < size; x++)
 printf("%d%s", array[x], (x != size -1) ? ", " : "\n");
 
