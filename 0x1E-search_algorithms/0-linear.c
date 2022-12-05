@@ -13,5 +13,13 @@ int linear_search(int *array, size_t size, int value)
 {
 if (array == NULL)
 return (-1);
-
+int index = 0;
+for (index = 0; index <  size, index++)
+{
+if (array[index] == value)
+{
+return (index);
+}
+}
+return (-1);
 }
