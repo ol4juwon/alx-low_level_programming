@@ -8,7 +8,7 @@
  * Return: If an error occurs - -1.
  *         Otherwise - The value of bit at index.
  */
-int flip_bits(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 unsigned long int xor = n ^ m, bits = 0;
 
