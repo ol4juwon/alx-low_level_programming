@@ -4,6 +4,11 @@
 
 /**
  * search - search each array object
+ * @array:  array to search
+ * @size: size of array
+ * @value: item to search 
+ *
+ * Return: -1 or index
  */
 
 size_t search(int *array, size_t size, int value)
@@ -12,7 +17,7 @@ size_t mid = size/2;
 size_t x;
 if (!array || size == 0)
 return (-1);
-printf("Searching in array: ");
+printf("searching in array: ");
 for (x = 0; x < size; x++)
 printf("%d%s", array[x], (x != size -1) ? ", " : "\n");
 
