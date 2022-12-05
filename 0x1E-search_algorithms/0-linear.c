@@ -18,6 +18,7 @@ for (index = 0; index <  size; index++)
 {
 if (array[index] == value)
 {
+printf("Value checked array[%lu] = [%d]\n", index, array[index]);
 return (index);
 }
 }
