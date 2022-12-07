@@ -9,16 +9,15 @@
  */
 size_t list_len(const list_t *h)
 {
-    const list_t *current;
-    unsigned int n; /* number of nodes */
+const list_t *current;
+unsigned int n; /* number of nodes */
 
-    current = h;
-    n = 0;
-    while (current != NULL)
-    {
-        current = current->next;
-        n++;
-    }
-
-    return (n);
+current = h;
+n = 0;
+while (current != NULL)
+{
+current = current->next;
+n++;
+}
+return (n);
 }
